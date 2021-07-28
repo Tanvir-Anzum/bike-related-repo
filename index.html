@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="header">
+    <div class="container-fluid">
+      <div class="row w-100 h-100 d-flex align-items-center">
+        <div class="col-12 col-md-6" id="text">
+          <h4>
+            Computer-controlled digital transistorized with electronic advance
+          </h4>
+          <h1>Honda CBR 300R</h1>
+          <h4 class="specific">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            <br />
+            sint. Velit officia consequat duis enim velit <br />
+            mollit. Exercitation veniam consequat sunt nostrud amet.
+          </h4>
+          <button
+            type="button"
+            class="btn"
+            id="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Purchase
+          </button>
+          <!--modal-->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Welcome!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">We have the biggest collection of exotic bikes.You have a wide varity of options to choose from.Consider us and be the owner of your dream bike.</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <img class="img-fluid" src="images/header-bike.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+    <!--motor starts-->
+    <section class="main">
+    <h1 class="d-flex justify-content-center">Featured Bikes</h1>
+    <h6 id="bike-text" class="d-flex justify-content-center">
+      Best Bikes Collection
+    </h6>
+    <div class="container bike">
+      <div class="row">
+        <div class="col mb-5">
+          <img
+            class="grayscale"
+            width="288"
+            height="243"
+            src="images/feature-bike.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col my-5 py-2">
+          <img width="288" height="243" src="images/feature-bike.jpg" alt="" />
+        </div>
+        <div class="col mt-5">
+          <img
+            class="grayscale"
+            width="288"
+            height="243"
+            src="images/feature-bike.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <h1 id="clients-text">Happy <span class="seperate">Clients Say</span></h1>
+    </div>
+    <!--new part-->
+    <div class="container">
+      <div
+        id="card"
+        class="row row-cols-1 d-flex justify-content-center row-cols-md-3 g-4"
+      >
+        <div class="col">
+          <div class="card h-100">
+            <div class="d-flex justify-content-center">
+              <img src="images/user-1.png" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Problem is a part of life.An engineen tries to solve
+                problems.So,he is in essence a problem solver.He loves problem
+                solving,that is sure.
+              </p>
+
+              <h5 class="text-primary d-flex justify-content-center">
+                Kevin Powell
+              </h5>
+
+              <h6 class="d-flex justify-content-center">Engineer</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="d-flex justify-content-center">
+              <img src="images/user-2.png" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                To be a good programmer,you have to work hard.We all are doing
+                that.Sometimes that is not so easy.But we have to make it easy.
+              </p>
+
+              <h5 class="text-primary d-flex justify-content-center">
+                Johny Perterson
+              </h5>
+
+              <h6 class="d-flex justify-content-center">Programer</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="d-flex justify-content-center">
+              <img
+                id="special"
+                src="images/user-3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Finacial things are tricky.Bankers know more about it than
+                others.What we understand is,they are involved in finacial
+                things.
+              </p>
+
+              <h5 class="text-primary d-flex justify-content-center">
+                John Smith
+              </h5>
+              <h6 class="d-flex justify-content-center">Banker</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
