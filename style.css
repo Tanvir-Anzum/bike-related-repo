@@ -28,7 +28,7 @@
   margin-top: 20px;
 }
 /**end of first part**/
-main .card{
+.clients .card {
   max-width: 320px;
 }
 #card img {
@@ -45,24 +45,25 @@ main .card{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
-.bike{
+.bike {
   margin-top: 120px;
 }
-#clients-text{
+#clients-text {
   margin-top: 160px;
   margin-bottom: 52px;
 }
-.seperate{
-  color:#E76F51;
+.seperate {
+  color: #e76f51;
 }
 /**miscellaneous starts here**/
-#accordionExample{
+#accordionExample {
   margin-top: 17vh;
 }
-#left-picture{
+#left-picture {
   margin-top: 16.7vh;
 }
-.fas,.far{
+.fas,
+.far {
   color: #e77c40;
   margin-left: 1.84px;
 }
