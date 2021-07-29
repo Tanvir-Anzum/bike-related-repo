@@ -26,9 +26,12 @@
   color: white;
   width: 168px;
   height: 44px;
+  margin-top: 20px;
 }
 /**end of first part**/
-
+.card{
+  max-width: 320px;
+}
 #card img {
   width: 149px;
   height: 149px;
@@ -52,13 +55,15 @@
 }
 .seperate{
   color:#E76F51;
-;
 }
-
 /**miscellaneous starts here**/
 #accordionExample{
   margin-top: 17vh;
 }
 #left-picture{
   margin-top: 16.7vh;
+}
+.fas,.far{
+  color: #e77c40;
+  margin-left: 1.84px;
 }
