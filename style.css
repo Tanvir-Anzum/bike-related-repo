@@ -8,15 +8,14 @@
   color: #e0e0e0;
   font-size: 16px;
   font-weight: 300;
-}
-.container-fluid h4 {
+  font-family: 'Poppins', sans-serif;
   color: white;
   font-size: 14px;
 }
-
 .container-fluid h1 {
-  font-size: 42px;
+  font-size: 48px;
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 #text {
   padding-left: 8.5%;
@@ -29,7 +28,7 @@
   margin-top: 20px;
 }
 /**end of first part**/
-.card{
+main .card{
   max-width: 320px;
 }
 #card img {
