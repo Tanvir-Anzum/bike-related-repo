@@ -1,4 +1,5 @@
-/**Header section**/
+/** Header section **/
+
 .container-fluid {
   background-color: #264653;
   height: 698px;
@@ -27,7 +28,9 @@
   height: 44px;
   margin-top: 20px;
 }
-/**end of first part**/
+
+/** cards start here **/
+
 .clients .card {
   max-width: 320px;
 }
@@ -38,11 +41,14 @@
 #special {
   border-radius: 50%;
 }
+
+/* bike related parts */
+
 #bike-text {
   color: #e76f51;
 }
 .grayscale {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 .bike {
@@ -55,7 +61,9 @@
 .seperate {
   color: #e76f51;
 }
-/**miscellaneous starts here**/
+
+/** miscellaneous starts here **/
+
 #accordionExample {
   margin-top: 17vh;
 }
